@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import blinkCursor from './utils/blinkCursor';
 import { BUTTONS, NUMBER_CASE, NON_ALPHABETS } from './utils/constants';
 import { shuffle } from './utils/shuffle';
+import './App.css';
 
 export default class App extends Component {
   constructor(props) {
